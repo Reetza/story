@@ -1,0 +1,109 @@
+p {
+    Color: White;
+    font-size: 3vw;
+    font-family: 'Julee', cursive;
+    text-align: center;
+}
+body{
+    width:90%;
+    color: goldenrod;
+    text-align:center;
+    margin:auto;
+
+}
+
+h1 {
+    color: goldenrod; 
+    font-size: 20vw;
+    font-family: 'Julee', cursive;
+
+}
+h3 {
+    Color: rgba(122, 25, 79, 0.774);
+    font-size: 9vw;
+    font-family: 'Julee', cursive;
+    text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#grad1 {
+  height: auto;
+  background-image: linear-gradient(#20666B, #15EB60);
+  background-repeat: no-repeat;
+}
+.line{
+    background-color: goldenrod;
+    width: 100%;
+}
+.first{
+    margin-top: 90px;
+}
+
+.second{
+    margin-top: 15px;
+}
+
+.thicker{
+    height: 30px;
+}
+
+.thinner{
+    height: 3px;
+}
+#title{
+    color: lemonchiffon; 
+     font-family: 'Julee', cursive;
+}
+#image{
+    Opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    font-size: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #777a7a;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.spacer {
+    height: 400px;
+}
+.spacer2{
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-color:wheat;
+}
+.images{
+    display: block;
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.important {
+    font-weight: bolder;
+}
